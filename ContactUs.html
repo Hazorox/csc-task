@@ -5,17 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles.css" />
+    <style type="text/tailwindcss">
+      @theme {
+        --color-orange: #f08d39;
+        --color-blue: #767f9e;
+        --color-white: #fffbe6;
+        --color-black: #000;
+        --color-green: #25d366;
+      }
+    </style>
     <title>103 community</title>
   </head>
-  <body class="p-0 m-0 flex w-full flex-col h-screen justify-center">
-    <header class="flex-2 border"></header>
+  <body class="p-0 m-0 flex w-full flex-col h-screen justify-center bg-white">
+    <header
+      class="flex w-full justify-around items-center border-b-2 bg-orange"
+    >
+      <a href="./index.html" class="flex flex-1 justify-center items-center">
+        <img src="./assets/favicon.svg" class="w-30 p-5" />
+      </a>
+      <nav class="flex-4 h-full items-center">
+        <ul class="flex w-full justify-around h-full items-center">
+          <a
+            href="./index.html"
+            class="h-full flex items-center w-50 justify-center"
+          >
+            <li class="selected">HomePage</li>
+          </a>
+          <a
+            href="./ContactUs.html"
+            class="bg-green h-full flex items-center w-50 justify-center"
+          >
+            <li>Contact OG members</li>
+          </a>
+          <a
+            href="./form.html"
+            class="h-full flex items-center w-50 justify-center"
+          >
+            <li>Application</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
     <main class="flex-10 flex items-center justify-center py-15">
       <section
-      id="parent"
-        class="w-25/100 h-full bg-red-500 rounded-md shadow-2xl py-7 px-5 flex gap-5 flex-col "
-      >
-        
-      </section>
+        id="parent"
+        class="w-25/100 h-full bg-green rounded-2xl shadow-2xl py-7 px-5 flex gap-5 flex-col"
+      ></section>
     </main>
     <script src="./scripts/getContact.js"></script>
   </body>
