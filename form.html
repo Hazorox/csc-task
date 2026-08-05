@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="form_style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="page">
+            <form class="form-container">
+                <div class="form-header">
+                    <h2>Application form</h2>
+                </div>
+                <div class="notice">
+                    <p>
+                        <ul style="list-style-type: disc; padding-left: 1.5rem;">
+                            <li>All fields are required.</li>
+                            <li>Make sure to fill out the form correctly.</li>
+                            <li>Don't cry if you don't have an acceptance because the acceptance rate is under 1%.</li>
+                            <li>We review applications carefully to choose the BEST new members. We know that no one in all schools has a chance, but those who apply can have the luck to be part of the community.</li>
+
+                        </ul>
+
+                    </p>
+                </div>
+                <div class="input-container">
+                    <label CLASS="form-text" for="username">
+                        Username :
+                    </label>
+                    <input class="form-control" type="text" name="username" id="username" required>
+                </div>
+                
+                <div class="input-container">
+                    <label CLASS="form-text" for="email">
+                        Email :
+                    </label>
+                    <input class="form-control" type="email" name="email" id="email" required>
+                </div>
+
+
+                <div class="input-container">
+                    <label CLASS="form-text" for="phone">
+                        Phone :
+                    </label>
+                    <input class="form-control" type="tel" name="phone" id="phone" required>
+                </div>
+            
+                <div class="input-container">
+                    <label CLASS="form-text" for="room-number">
+                        Room Number:
+                    </label>
+                    <input class="form-control" type="text" name="room-number" id="room-number" required>
+                </div>
+
+                <div class="input-container">
+                    <label CLASS="form-text" for="school-year">
+                        School Year: 
+                    </label>
+                    <select class="form-control" name="school-year" required>
+                        <option value="" selected disabled hidden>Select Grade</option>
+                        <option value="g10">Grade 10</option>
+                        <option value="g11">Grade 11</option>
+                        <option value="g12">Grade 12</option>
+                    </select>
+                </div>
+
+                <div class="input-essay-container">
+                    <label class="form-text" for="essay">
+                        Essay:
+                    </label>
+                    <input class="essay" type="text" name="essay" id="essay" required>
+                </div>
+
+                <div class="sub-btn">
+                    <button class="btn btn-primary" type="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+
+        <div class="hidden-div">
+            
+
+            <div class="request-titel">
+                <h3>reqest info</h3>
+            </div>
+
+            <div class="timer">
+
+                00:00
+            </div>
+            <div class="request-div">
+                <p class="req-text" id="req-username"></p>
+                <p class="req-text" id="req-email"></p>
+                <p class="req-text" id="req-phone"></p>
+                <p class="req-text" id="req-room-number"></p>
+                <p class="req-text" id="req-school-year"></p>
+                <p class="req-text" id="req-essay"></p>
+            </div>
+            
+        
+        </div>
+
+        
+         
+
+    </div>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
