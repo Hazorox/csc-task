@@ -1,14 +1,16 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
 @custom-variant dark (&:where(.dark, .dark *));
 @theme {
-  --color-background: #0f0b0b;
-  --color-font: #f3e9e9;
-  --color-subBg: #1b1414;
-  --color-Im1: #7a1515;
-  --color-Im2: #c23b3b;
-  --font-Jungle: sans-serif;
+  --color-orange:#F08D39;
+  --color-blue:#767F9E;
+  --color-white:#fffbe6;
+  --color-black:#000;
 }
 body{
   font-family:"Comfortaa"
+}
+.sekuya{
+  font-family: "sekuya";
 }
