@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @custom-variant dark (&:where(.dark, .dark *));
 @theme {
   --color-background: #0f0b0b;
@@ -7,4 +8,7 @@
   --color-Im1: #7a1515;
   --color-Im2: #c23b3b;
   --font-Jungle: sans-serif;
+}
+body{
+  font-family:"Comfortaa"
 }
