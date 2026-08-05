@@ -1,0 +1,131 @@
+
+
+.form-header{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+
+}
+
+.request-titel{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+
+.page{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: darkgray;
+}
+
+
+
+
+.form-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--color--subBg);
+  border-radius: 0.5rem;
+  height: 50%;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  width: 350px;
+}
+
+
+.form-text {
+  font-size:  1.2rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+}
+
+.input-essay-container{
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.essay{
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.sub-btn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+
+.hidden-div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: 400px ;
+
+}
+
+.request-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: 400px ;
+}
+.req-text{
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+.timer{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
