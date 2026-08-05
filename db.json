@@ -1,0 +1,74 @@
+{
+  "Mazen": {
+    "name": "Mazen fathy",
+    "grade": "11",
+    "isMain": true,
+    "hobbies": [
+      "Football",
+      "watching movies and anime",
+      "programing",
+      "listeninig music"
+    ],
+    "quote": "I am iron man",
+    "phone-number": "+20 11 57083176",
+    "img-url": "./assets"
+  },
+  "Hamza": {
+    "name": "Hamza awad",
+    "grade": "11",
+    "isMain": true,
+    "hobbies": ["watching movies and anime", "programing", "listeninig music"],
+    "quote": "batatis",
+    "phone-number": "+20 10 20749208",
+    "img-url": "./assets"
+  },
+  "Eyad": {
+    "name": "Eyad Eid",
+    "isMain": true,
+    "grade": "11",
+    "hobbies": ["watching movies and anime", "programing", "listeninig music"],
+    "quote": "I love food and little girls",
+    "phone-number": "+20 10 17125944",
+    "img-url": "./assets"
+  },
+  "3sker": {
+    "name": "Ahmed mostafa 3sker",
+    "grade": "11",
+    "hobbies": ["watching movies and anime", "programing", "listeninig music"],
+    "quote": "I love food and little girls",
+    "phone-number": "+20 10 61143497",
+    "img-url": "./assets"
+  },
+  "Saad": {
+    "name": "Saad bakr",
+    "grade": "11",
+    "hobbies": ["watching movies and anime", "programing", "listeninig music"],
+    "quote": "I love girls",
+    "phone-number": "+20 10 69295398",
+    "img-url": "./assets"
+  },
+  "Adham": {
+    "name": "Adham wael",
+    "grade": "11",
+    "hobbies": ["watching movies and anime", "programing", "listeninig music"],
+    "quote": "I love",
+    "phone-number": "+20 10 90193396",
+    "img-url": "./assets"
+  },
+  "Yassin-Ahmed": {
+    "name": "Yassin Ahmed",
+    "grade": "11",
+    "hobbies": ["watching movies and anime", "programing", "listeninig music"],
+    "quote": "I  girls",
+    "phone-number": "+20 11 27555277",
+    "img-url": "./assets"
+  },
+  "Yassin-Hamza": {
+    "name": "Yassin Hamza",
+    "grade": "11",
+    "hobbies": ["watching movies and anime", "programing", "listeninig music"],
+    "quote": "I  girls",
+    "phone-number": "+20 10 44367288",
+    "img-url": "./assets"
+  }
+}
