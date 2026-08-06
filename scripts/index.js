@@ -8,6 +8,6 @@ keys.map((key,index)=>{
     const {name,quote,hobbies} = data[key]
     namesClass[index].textContent=name
     imageClass[index].setAttribute('src',`assets/${key}.jpeg`)
-    quoteClass[index].textContent = quote
+    quoteClass[index].textContent = `"${quote}"`
     hobbiesClass[index].textContent = hobbies.join(", ")
 })
