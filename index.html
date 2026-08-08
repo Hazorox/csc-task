@@ -37,8 +37,26 @@
     <script type="module" src="scripts/index.js"></script>
   </head>
   <body
-    class="flex p-8 bg-white justify-center items-center gap-8 flex-col relative"
+    class="flex bg-white justify-center items-center gap-8 flex-col relative"
   >
+  <header class="flex w-full min-h-20 justify-between items-center border-b-2 bg-orange px-4 sm:px-8">
+      <a href="./index.html" class="flex justify-center items-center">
+        <img src="./assets/favicon.svg" alt="Logo" class="w-16 h-16 p-2" />
+      </a>
+      <nav class="h-full">
+        <ul class="flex items-center gap-2 sm:gap-6 h-full font-semibold text-sm sm:text-base">
+          <a href="./index.html" class="px-3 py-2 rounded bg-[#5CE65C] hover:opacity-90 transition">
+            <li class="selected">HomePage</li>
+          </a>
+          <a href="./ContactUs.html" class="px-3 py-2 rounded hover:bg-black/10 transition">
+            <li>Contact OG members</li>
+          </a>
+          <a href="./form.html" class="bg-green px-4 py-2 rounded hover:bg-black/10 transition">
+            <li>Application</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
     <header class="flex flex-col items-center gap-8">
       <p class="text-6xl text-center">STEM OCTOBER LEGACY</p>
       <p class="text-5xl">S'28 103</p>
@@ -118,6 +136,11 @@
             <p class="hobbies"></p>
           </div>
         </div>
+      </section>
+      <section id="joke" class="w-[90%] rounded-3xl flex flex-col justify-center p-8 items-center">
+        <p id="setup" class="text-2xl"></p>
+        <p id="punchline" class="text-2xl"></p>
+        <button id="getJoke" class="text-3xl bg-blue rounded-full w-[50%] p-4 flex justify-center items-center">Get a random 103 Joke</button>
       </section>
     </main>
     <footer></footer>
